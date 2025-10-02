@@ -4,7 +4,7 @@
 
 This is a **Content-Based Movie Recommender System** built in Python. The system recommends movies similar to a user-selected movie based on **title and genre metadata** using **TF-IDF vectorization** and **cosine similarity**.  
 
-This project was created as a portfolio project for a **Second-Year Computer Science course**, demonstrating skills in **Python, data preprocessing, machine learning, and web app deployment**.
+This project was created to demonstrate skills in **Python, data preprocessing, machine learning, and web app deployment**.
 
 ---
 
