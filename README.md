@@ -78,7 +78,8 @@ Copy code
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 ### 3. Install Dependencies
-```powershell
+```
+powershell
 Copy code
 pip install -r requirements.txt
 ```
@@ -89,16 +90,15 @@ Go to MovieLens Small Dataset
 Download and extract movies.csv and ratings.csv into the data/ folder
 
 ```
+### 5. Build Model Artifacts
 ```
-5. Build Model Artifacts
 powershell
 Copy code
 python recommender.py
 This creates TF-IDF vectors, similarity matrix, and title index in the models/ folder.
-
 ```
+### 6. Run Streamlit App
 ```
-6. Run Streamlit App
 powershell
 Copy code
 streamlit run app\streamlit_app.py
@@ -106,8 +106,8 @@ Open the URL printed in PowerShell (usually http://localhost:8501)
 
 Select a movie and view recommendations
 ```
-```7. Run Unit Tests (Optional)
-powershell
+### 7. Run Unit Tests (Optional)
+```powershell
 Copy code
 python -m unittest discover -v
 Libraries Used
@@ -120,8 +120,8 @@ requests	Optional: Fetch movie posters from TMDB
 joblib	Save and load model artifacts efficiently
 unittest	Unit testing framework
 ```
-Usage
-Run the Streamlit app
+### Usage
+```Run the Streamlit app
 
 Select a movie from the dropdown
 
@@ -130,22 +130,22 @@ Adjust the number of recommendations
 Optional: Input your TMDB API key to show posters
 
 Click "Get Recommendations" to see the top similar movies
-
-Future Improvements
-Integrate collaborative filtering for hybrid recommendations
+```
+### Future Improvements
+```Integrate collaborative filtering for hybrid recommendations
 
 Include plot summaries, cast, or keywords for better similarity
 
 Deploy online via Streamlit Cloud for portfolio showcase
 
 Add filtering by year, genre, or rating
-
-References
-MovieLens Dataset
+```
+### References
+``` MovieLens Dataset
 
 Scikit-learn: TF-IDF Vectorizer
 
 Streamlit Documentation
-
-Author
+```
+### Author
 Chidwan AD
