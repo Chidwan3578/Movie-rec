@@ -66,8 +66,8 @@ Follow these steps to run the project locally:
 git clone https://github.com/YOUR_USERNAME/movie-recommender.git
 cd movie-recommender
 ```
-```2. Create Virtual Environment
-powershell
+### 2. Create Virtual Environment
+```powershell
 Copy code
 python -m venv venv
 .\venv\Scripts\Activate.ps1
@@ -77,12 +77,13 @@ powershell
 Copy code
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
-```3. Install Dependencies
-powershell
+### 3. Install Dependencies
+```powershell
 Copy code
 pip install -r requirements.txt
 ```
-```4. Download Dataset
+### 4. Download Dataset
+```
 Go to MovieLens Small Dataset
 
 Download and extract movies.csv and ratings.csv into the data/ folder
