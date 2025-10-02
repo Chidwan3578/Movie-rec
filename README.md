@@ -65,7 +65,8 @@ Follow these steps to run the project locally:
 ```powershell
 git clone https://github.com/YOUR_USERNAME/movie-recommender.git
 cd movie-recommender
-2. Create Virtual Environment
+```
+```2. Create Virtual Environment
 powershell
 Copy code
 python -m venv venv
@@ -75,21 +76,27 @@ python -m venv venv
 powershell
 Copy code
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-3. Install Dependencies
+```
+```3. Install Dependencies
 powershell
 Copy code
 pip install -r requirements.txt
-4. Download Dataset
+```
+```4. Download Dataset
 Go to MovieLens Small Dataset
 
 Download and extract movies.csv and ratings.csv into the data/ folder
 
+```
+```
 5. Build Model Artifacts
 powershell
 Copy code
 python recommender.py
 This creates TF-IDF vectors, similarity matrix, and title index in the models/ folder.
 
+```
+```
 6. Run Streamlit App
 powershell
 Copy code
@@ -97,8 +104,8 @@ streamlit run app\streamlit_app.py
 Open the URL printed in PowerShell (usually http://localhost:8501)
 
 Select a movie and view recommendations
-
-7. Run Unit Tests (Optional)
+```
+```7. Run Unit Tests (Optional)
 powershell
 Copy code
 python -m unittest discover -v
@@ -111,7 +118,7 @@ streamlit	Web interface for interactive recommendations
 requests	Optional: Fetch movie posters from TMDB
 joblib	Save and load model artifacts efficiently
 unittest	Unit testing framework
-
+```
 Usage
 Run the Streamlit app
 
