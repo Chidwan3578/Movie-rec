@@ -138,7 +138,6 @@ Include plot summaries, cast, or keywords for better similarity
 
 Deploy online via Streamlit Cloud for portfolio showcase
 
-Add filtering by year, genre, or rating
 ```
 ### References
 ``` MovieLens Dataset
