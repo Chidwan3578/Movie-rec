@@ -138,6 +138,8 @@ Include plot summaries, cast, or keywords for better similarity
 
 Deploy online via Streamlit Cloud for portfolio showcase
 
+Improve UI/UX design
+
 ```
 ### References
 ``` MovieLens Dataset
